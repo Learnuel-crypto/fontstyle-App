@@ -1,0 +1,724 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4575F888-885E-403E-8370-DE4058159903}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PrintingPress</RootNamespace>
+    <AssemblyName>PrintingPress</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>fontstyle_logo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>..\..\Bosss Update\CASH DESK FINAL\WindowsFormsApplication1\bin\Debug\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="EncryptPassword35">
+      <HintPath>..\..\..\ChucksMedicareApp\ChucksMedicare\bin\Debug\EncryptPassword35.dll</HintPath>
+    </Reference>
+    <Reference Include="EncryptString">
+      <HintPath>..\..\..\..\Downloads\Benford Pharmacy (3)\Benford Pharmacy\Benford Pharmacy\bin\Debug\EncryptString.dll</HintPath>
+    </Reference>
+    <Reference Include="ExcelDataReader">
+      <HintPath>..\..\Bosss Update\CASH DESK FINAL\WindowsFormsApplication1\bin\Debug\ExcelDataReader.dll</HintPath>
+    </Reference>
+    <Reference Include="ExcelDataReader.DataSet">
+      <HintPath>..\..\Bosss Update\CASH DESK FINAL\WindowsFormsApplication1\bin\Debug\ExcelDataReader.DataSet.dll</HintPath>
+    </Reference>
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="MachineID_DLL">
+      <HintPath>..\..\..\ChucksMedicareApp\ChucksMedicare\bin\Debug\MachineID_DLL.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Zen.Barcode.Core">
+      <HintPath>..\..\Bosss Update\CASH DESK FINAL\WindowsFormsApplication1\bin\Debug\Zen.Barcode.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="API\Configuration\AuthenticiationFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="API\Configuration\AuthenticiationFrm.Designer.cs">
+      <DependentUpon>AuthenticiationFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="API\Configuration\CreateAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="API\Configuration\CreateAdmin.Designer.cs">
+      <DependentUpon>CreateAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="API\Configuration\DatabaseFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="API\Configuration\DatabaseFrm.Designer.cs">
+      <DependentUpon>DatabaseFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="API\Configuration\MessengerServerConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="API\Configuration\MessengerServerConfig.Designer.cs">
+      <DependentUpon>MessengerServerConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="API\Configuration\PrintTitleFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="API\Configuration\PrintTitleFrm.Designer.cs">
+      <DependentUpon>PrintTitleFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="API\Configuration\ReceiptSetupFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="API\Configuration\ReceiptSetupFrm.Designer.cs">
+      <DependentUpon>ReceiptSetupFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="API\Configuration\ServerConfigFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="API\Configuration\ServerConfigFrm.Designer.cs">
+      <DependentUpon>ServerConfigFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="API\Customer_mgt\CustomerAccountFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="API\Customer_mgt\CustomerAccountFrm.Designer.cs">
+      <DependentUpon>CustomerAccountFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="API\Customer_mgt\CustomerUpdateFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="API\Customer_mgt\CustomerUpdateFrm.Designer.cs">
+      <DependentUpon>CustomerUpdateFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="API\Customer_mgt\Customer_activityFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="API\Customer_mgt\Customer_activityFrm.Designer.cs">
+      <DependentUpon>Customer_activityFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="API\Customer_mgt\Customer_dashboardFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="API\Customer_mgt\Customer_dashboardFrm.Designer.cs">
+      <DependentUpon>Customer_dashboardFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="API\Customer_mgt\Customer_report\ReportFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="API\Customer_mgt\Customer_report\ReportFrm.Designer.cs">
+      <DependentUpon>ReportFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="API\General_reports\CRPAccountStatement.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CRPAccountStatement.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="API\General_reports\CRPCashflow.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CRPCashflow.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="API\General_reports\CRPCustomerInflow.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CRPCustomerInflow.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="API\General_reports\CRPInvoice.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CRPInvoice.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="API\General_reports\CRPInvoiceItems.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CRPInvoiceItems.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="API\General_reports\CRPUserActivity.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CRPUserActivity.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="API\General_reports\GeneralReportFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="API\General_reports\GeneralReportFrm.Designer.cs">
+      <DependentUpon>GeneralReportFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="API\Income_expense\AccountFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="API\Income_expense\AccountFrm.Designer.cs">
+      <DependentUpon>AccountFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="API\Income_expense\BasicSetupFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="API\Income_expense\BasicSetupFrm.Designer.cs">
+      <DependentUpon>BasicSetupFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="API\Income_expense\CashFlowFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="API\Income_expense\CashFlowFrm.Designer.cs">
+      <DependentUpon>CashFlowFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="API\Income_expense\CodeHeading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="API\Income_expense\CodeHeading.Designer.cs">
+      <DependentUpon>CodeHeading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="API\Income_expense\InvoiceCompleteFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="API\Income_expense\InvoiceCompleteFrm.Designer.cs">
+      <DependentUpon>InvoiceCompleteFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="API\Income_expense\InvoiceGenFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="API\Income_expense\InvoiceGenFrm.Designer.cs">
+      <DependentUpon>InvoiceGenFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="API\Income_expense\InvoiceItemsFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="API\Income_expense\InvoiceItemsFrm.Designer.cs">
+      <DependentUpon>InvoiceItemsFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="API\Income_expense\ItemsFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="API\Income_expense\ItemsFrm.Designer.cs">
+      <DependentUpon>ItemsFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="API\Income_expense\JobSetupFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="API\Income_expense\JobSetupFrm.Designer.cs">
+      <DependentUpon>JobSetupFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="API\Income_expense\ViewCashFlowFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="API\Income_expense\ViewCashFlowFrm.Designer.cs">
+      <DependentUpon>ViewCashFlowFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="API\Income_expense\ViewInvoiceFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="API\Income_expense\ViewInvoiceFrm.Designer.cs">
+      <DependentUpon>ViewInvoiceFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="API\Messenger\ChatBoxFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="API\Messenger\ChatBoxFrm.Designer.cs">
+      <DependentUpon>ChatBoxFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="API\Messenger\ChatNotifyFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="API\Messenger\ChatNotifyFrm.Designer.cs">
+      <DependentUpon>ChatNotifyFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="API\Notifications\ConfirmInforFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="API\Notifications\ConfirmInforFrm.Designer.cs">
+      <DependentUpon>ConfirmInforFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="API\Notifications\OperationNotifyFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="API\Notifications\OperationNotifyFrm.Designer.cs">
+      <DependentUpon>OperationNotifyFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="API\Messenger\SuccessFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="API\Messenger\SuccessFrm.Designer.cs">
+      <DependentUpon>SuccessFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="API\Notifications\ConfirmationNotifyFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="API\Notifications\ConfirmationNotifyFrm.Designer.cs">
+      <DependentUpon>ConfirmationNotifyFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="API\Reports\Invoice_receipt\CRDebtInvoice.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CRDebtInvoice.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="API\Reports\Invoice_receipt\CRInvoice.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CRInvoice.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="API\Reports\Invoice_receipt\CRInvoiceFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="API\Reports\Invoice_receipt\CRInvoiceFrm.Designer.cs">
+      <DependentUpon>CRInvoiceFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="API\Reports\ReportDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReportDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="API\Startups\CreateUserFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="API\Startups\CreateUserFrm.Designer.cs">
+      <DependentUpon>CreateUserFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="API\Startups\DashboardFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="API\Startups\DashboardFrm.Designer.cs">
+      <DependentUpon>DashboardFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="API\Startups\LoadScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="API\Startups\LoadScreen.Designer.cs">
+      <DependentUpon>LoadScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="API\User_security\ForgotPasswordFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="API\User_security\ForgotPasswordFrm.Designer.cs">
+      <DependentUpon>ForgotPasswordFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="API\User_security\ResetLoginFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="API\User_security\ResetLoginFrm.Designer.cs">
+      <DependentUpon>ResetLoginFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="API\User_security\ResetPasswordFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="API\User_security\ResetPasswordFrm.Designer.cs">
+      <DependentUpon>ResetPasswordFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="API\User_security\SecurityQuestionFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="API\User_security\SecurityQuestionFrm.Designer.cs">
+      <DependentUpon>SecurityQuestionFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="API\User_security\UserActivityFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="API\User_security\UserActivityFrm.Designer.cs">
+      <DependentUpon>UserActivityFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MessageContainer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\MessageContainer.Designer.cs">
+      <DependentUpon>MessageContainer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="API\Startups\LoginFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="API\Startups\LoginFrm.Designer.cs">
+      <DependentUpon>LoginFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ucDateTime.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ucDateTime.Designer.cs">
+      <DependentUpon>ucDateTime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Factory.cs" />
+    <Compile Include="Models\BarCodeGen.cs" />
+    <Compile Include="Models\Configs\AppActivation.cs" />
+    <Compile Include="Models\Configs\Dbase.cs" />
+    <Compile Include="Models\Configs\MyDB.cs" />
+    <Compile Include="Models\Expense.cs" />
+    <Compile Include="Models\Helper\AppSettings.cs" />
+    <Compile Include="Models\Helper\Arithmetic.cs" />
+    <Compile Include="Models\Helper\ChatSqlHelper.cs" />
+    <Compile Include="Models\Helper\DataGridStyle.cs" />
+    <Compile Include="Models\Helper\DGVPrinter.cs" />
+    <Compile Include="Models\Helper\ExceptionHandling.cs" />
+    <Compile Include="Models\Interface\IArithmetic.cs" />
+    <Compile Include="Models\Helper\ImageLoader.cs" />
+    <Compile Include="Models\Helper\MyPrinter.cs" />
+    <Compile Include="Models\Helper\ProcedureUpdate\CreateProcedure.cs" />
+    <Compile Include="Models\Helper\ProcedureUpdate\Procedures.cs" />
+    <Compile Include="Models\Helper\Receipt.cs" />
+    <Compile Include="Models\Helper\Refresher.cs" />
+    <Compile Include="Models\Helper\SqlHelper.cs" />
+    <Compile Include="Models\Helper\UserSettings.cs" />
+    <Compile Include="Models\Helper\Validation.cs" />
+    <Compile Include="Models\Interface\IExpenses.cs" />
+    <Compile Include="Models\Interface\IAppSettings.cs" />
+    <Compile Include="Models\Interface\ISqlHelper.cs" />
+    <Compile Include="Models\Job\CashFlow.cs" />
+    <Compile Include="Models\Job\Customer.cs" />
+    <Compile Include="Models\Interface\IJob.cs" />
+    <Compile Include="Models\Interface\IJobCategory.cs" />
+    <Compile Include="Models\Interface\ICustomer.cs" />
+    <Compile Include="Models\Interface\IInvoice.cs" />
+    <Compile Include="Models\Interface\ICashFlow.cs" />
+    <Compile Include="Models\Job\Invoice.cs" />
+    <Compile Include="Models\Job\Job.cs" />
+    <Compile Include="Models\Job\JobCategory.cs" />
+    <Compile Include="Models\schoolInfor.cs" />
+    <Compile Include="Models\Interface\IUsers.cs" />
+    <Compile Include="Models\Interface\IUserActivity.cs" />
+    <Compile Include="Models\Interface\IStaffs.cs" />
+    <Compile Include="Models\Interface\IUserChat.cs" />
+    <Compile Include="Models\Staff_mgt\Staff.cs" />
+    <Compile Include="Models\Staff_mgt\UserActivity.cs" />
+    <Compile Include="Models\Staff_mgt\UserChat.cs" />
+    <Compile Include="Models\Staff_mgt\Users.cs" />
+    <Compile Include="Models\Staff_mgt\UserSettings.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="API\Configuration\AuthenticiationFrm.resx">
+      <DependentUpon>AuthenticiationFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="API\Configuration\CreateAdmin.resx">
+      <DependentUpon>CreateAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="API\Configuration\DatabaseFrm.resx">
+      <DependentUpon>DatabaseFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="API\Configuration\MessengerServerConfig.resx">
+      <DependentUpon>MessengerServerConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="API\Configuration\PrintTitleFrm.resx">
+      <DependentUpon>PrintTitleFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="API\Configuration\ReceiptSetupFrm.resx">
+      <DependentUpon>ReceiptSetupFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="API\Configuration\ServerConfigFrm.resx">
+      <DependentUpon>ServerConfigFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="API\Customer_mgt\CustomerAccountFrm.resx">
+      <DependentUpon>CustomerAccountFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="API\Customer_mgt\CustomerUpdateFrm.resx">
+      <DependentUpon>CustomerUpdateFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="API\Customer_mgt\Customer_activityFrm.resx">
+      <DependentUpon>Customer_activityFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="API\Customer_mgt\Customer_dashboardFrm.resx">
+      <DependentUpon>Customer_dashboardFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="API\Customer_mgt\Customer_report\ReportFrm.resx">
+      <DependentUpon>ReportFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="API\General_reports\CRPAccountStatement.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CRPAccountStatement.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="API\General_reports\CRPCashflow.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CRPCashflow.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="API\General_reports\CRPCustomerInflow.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CRPCustomerInflow.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="API\General_reports\CRPInvoice.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CRPInvoice.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="API\General_reports\CRPInvoiceItems.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CRPInvoiceItems.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="API\General_reports\CRPUserActivity.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CRPUserActivity.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="API\General_reports\GeneralReportFrm.resx">
+      <DependentUpon>GeneralReportFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="API\Income_expense\AccountFrm.resx">
+      <DependentUpon>AccountFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="API\Income_expense\BasicSetupFrm.resx">
+      <DependentUpon>BasicSetupFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="API\Income_expense\CashFlowFrm.resx">
+      <DependentUpon>CashFlowFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="API\Income_expense\CodeHeading.resx">
+      <DependentUpon>CodeHeading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="API\Income_expense\InvoiceCompleteFrm.resx">
+      <DependentUpon>InvoiceCompleteFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="API\Income_expense\InvoiceGenFrm.resx">
+      <DependentUpon>InvoiceGenFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="API\Income_expense\InvoiceItemsFrm.resx">
+      <DependentUpon>InvoiceItemsFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="API\Income_expense\ItemsFrm.resx">
+      <DependentUpon>ItemsFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="API\Income_expense\JobSetupFrm.resx">
+      <DependentUpon>JobSetupFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="API\Income_expense\ViewCashFlowFrm.resx">
+      <DependentUpon>ViewCashFlowFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="API\Income_expense\ViewInvoiceFrm.resx">
+      <DependentUpon>ViewInvoiceFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="API\Messenger\ChatBoxFrm.resx">
+      <DependentUpon>ChatBoxFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="API\Messenger\ChatNotifyFrm.resx">
+      <DependentUpon>ChatNotifyFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="API\Notifications\ConfirmInforFrm.resx">
+      <DependentUpon>ConfirmInforFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="API\Notifications\OperationNotifyFrm.resx">
+      <DependentUpon>OperationNotifyFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="API\Messenger\SuccessFrm.resx">
+      <DependentUpon>SuccessFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="API\Notifications\ConfirmationNotifyFrm.resx">
+      <DependentUpon>ConfirmationNotifyFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="API\Reports\Invoice_receipt\CRDebtInvoice.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CRDebtInvoice.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="API\Reports\Invoice_receipt\CRInvoice.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CRInvoice.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="API\Reports\Invoice_receipt\CRInvoiceFrm.resx">
+      <DependentUpon>CRInvoiceFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="API\Startups\CreateUserFrm.resx">
+      <DependentUpon>CreateUserFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="API\Startups\DashboardFrm.resx">
+      <DependentUpon>DashboardFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="API\Startups\LoadScreen.resx">
+      <DependentUpon>LoadScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="API\User_security\ForgotPasswordFrm.resx">
+      <DependentUpon>ForgotPasswordFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="API\User_security\ResetLoginFrm.resx">
+      <DependentUpon>ResetLoginFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="API\User_security\ResetPasswordFrm.resx">
+      <DependentUpon>ResetPasswordFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="API\User_security\SecurityQuestionFrm.resx">
+      <DependentUpon>SecurityQuestionFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="API\User_security\UserActivityFrm.resx">
+      <DependentUpon>UserActivityFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\MessageContainer.resx">
+      <DependentUpon>MessageContainer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="API\Startups\LoginFrm.resx">
+      <DependentUpon>LoginFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ucDateTime.resx">
+      <DependentUpon>ucDateTime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="API\Reports\ReportDataSet.xsc">
+      <DependentUpon>ReportDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="API\Reports\ReportDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ReportDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="API\Reports\ReportDataSet.xss">
+      <DependentUpon>ReportDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icons\More Than_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\Defaultlogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\Spinner-1s-200px.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icons\icons8_search_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icons\Ok_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icons\Replace_20px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icons\Cancel_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icons\add_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icons\Settings_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icons\icons8_eye_24px_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icons\Visible_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icons\Print_20px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icons\Cancel_20px.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="bin\Debug\icons\Facebook Messenger_20px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icons\FacebookMessenger_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icons\icons8_sent_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\fontstyle_logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icons\Minus Math _20px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icons\icons8_ethernet_off_24px_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icons\icons8_back_to_24px.png" />
+    <None Include="bin\Debug\icons\Checked_20px.png" />
+    <None Include="bin\Debug\icons\icons8_sign_out_24px_1.png" />
+    <None Include="bin\Debug\icons\icons8_sign_in_form_password_24px.png" />
+    <None Include="bin\Debug\icons\icons8_password_24px.png" />
+    <None Include="bin\Debug\icons\icons8_admin_settings_male_24px.png" />
+    <None Include="bin\Debug\icons\icons8_checkmark_58px.png" />
+    <None Include="bin\Debug\icons\icons8_cash_in_hand_24px_1.png" />
+    <None Include="bin\Debug\icons\icons8_money_bag_100px_1.png" />
+    <None Include="bin\Debug\icons\icons8_naira_48px.png" />
+    <None Include="bin\Debug\icons\icons8_money_bag_100px.png" />
+    <None Include="bin\Debug\icons\icons8_naira_24px.png" />
+    <None Include="bin\Debug\icons\icons8_account_24px_2.png" />
+    <None Include="bin\Debug\icons\icons8_refund_24px.png" />
+    <None Include="bin\Debug\icons\icons8_cash_in_hand_24px_2.png" />
+    <None Include="bin\Debug\icons\Info_96px.png" />
+    <None Include="bin\Debug\icons\icons8_member_24px.png" />
+    <None Include="bin\Debug\Images\Spinner2-1s-200px.gif" />
+    <None Include="bin\Debug\icons\icons8_eye_24px.png" />
+    <None Include="bin\Debug\icons\icons8_receipt_24px.png" />
+    <None Include="bin\Debug\icons\icons8_report_file_24px.png" />
+    <None Include="bin\Debug\icons\More_24px_2.png" />
+    <None Include="bin\Debug\icons\More_24px_3.png" />
+    <None Include="bin\Debug\icons\icons8_transaction_24px.png" />
+    <Content Include="fontstyle_logo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

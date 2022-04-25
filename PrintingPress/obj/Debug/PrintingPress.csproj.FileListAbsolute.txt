@@ -1,0 +1,117 @@
+E:\Users\Learnueltech\Desktop\Production Projects\PrintingPress_sol\PrintingPress\bin\Debug\PrintingPress.exe.config
+E:\Users\Learnueltech\Desktop\Production Projects\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.exe
+E:\Users\Learnueltech\Desktop\Production Projects\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.pdb
+E:\Users\Learnueltech\Desktop\Production Projects\PrintingPress_sol\PrintingPress\bin\Debug\PrintingPress.exe
+E:\Users\Learnueltech\Desktop\Production Projects\PrintingPress_sol\PrintingPress\bin\Debug\PrintingPress.pdb
+E:\Users\Learnueltech\Desktop\Production Projects\PrintingPress_sol\PrintingPress\bin\Debug\Bunifu_UI_v1.5.3.dll
+E:\Users\Learnueltech\Desktop\Production Projects\PrintingPress_sol\PrintingPress\bin\Debug\EncryptString.dll
+E:\Users\Learnueltech\Desktop\Production Projects\PrintingPress_sol\PrintingPress\bin\Debug\ExcelDataReader.DataSet.dll
+E:\Users\Learnueltech\Desktop\Production Projects\PrintingPress_sol\PrintingPress\bin\Debug\ExcelDataReader.dll
+E:\Users\Learnueltech\Desktop\Production Projects\PrintingPress_sol\PrintingPress\bin\Debug\Zen.Barcode.Core.dll
+E:\Users\Learnueltech\Desktop\Production Projects\PrintingPress_sol\PrintingPress\bin\Debug\ExcelDataReader.pdb
+E:\Users\Learnueltech\Desktop\Production Projects\PrintingPress_sol\PrintingPress\bin\Debug\ExcelDataReader.xml
+E:\Users\Learnueltech\Desktop\Production Projects\PrintingPress_sol\PrintingPress\bin\Debug\ExcelDataReader.DataSet.pdb
+E:\Users\Learnueltech\Desktop\Production Projects\PrintingPress_sol\PrintingPress\bin\Debug\ExcelDataReader.DataSet.xml
+E:\Users\Learnueltech\Desktop\Production Projects\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.csprojResolveAssemblyReference.cache
+E:\Users\Learnueltech\Desktop\Production Projects\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.API.Income_expense.AccountFrm.resources
+E:\Users\Learnueltech\Desktop\Production Projects\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.API.Income_expense.BasicSetupFrm.resources
+E:\Users\Learnueltech\Desktop\Production Projects\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.API.Income_expense.CashFlowFrm.resources
+E:\Users\Learnueltech\Desktop\Production Projects\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.API.Income_expense.CodeHeading.resources
+E:\Users\Learnueltech\Desktop\Production Projects\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.API.Startups.LoadScreenFrm.resources
+E:\Users\Learnueltech\Desktop\Production Projects\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.Controls.MessageContainer.resources
+E:\Users\Learnueltech\Desktop\Production Projects\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.ChatFrm.resources
+E:\Users\Learnueltech\Desktop\Production Projects\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.Properties.Resources.resources
+E:\Users\Learnueltech\Desktop\Production Projects\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.csproj.GenerateResource.Cache
+E:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\bin\Debug\PrintingPress.exe.config
+E:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.exe
+E:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.pdb
+E:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\bin\Debug\PrintingPress.exe
+E:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\bin\Debug\PrintingPress.pdb
+E:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\bin\Debug\ExcelDataReader.pdb
+E:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\bin\Debug\ExcelDataReader.xml
+E:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\bin\Debug\ExcelDataReader.DataSet.pdb
+E:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\bin\Debug\ExcelDataReader.DataSet.xml
+E:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.csprojResolveAssemblyReference.cache
+E:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.API.Income_expense.AccountFrm.resources
+E:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.API.Income_expense.BasicSetupFrm.resources
+E:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.API.Income_expense.CashFlowFrm.resources
+E:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.API.Income_expense.CodeHeading.resources
+E:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.API.Startups.LoadScreenFrm.resources
+E:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.Controls.MessageContainer.resources
+E:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.ChatFrm.resources
+E:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.Properties.Resources.resources
+E:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.csproj.GenerateResource.Cache
+E:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.API.Messenger.ChatBoxFrm.resources
+E:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.Controls.ucDateTime.resources
+E:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.API.Messenger.ChatNotification.resources
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\bin\Debug\PrintingPress.exe.config
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.exe
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.pdb
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\bin\Debug\PrintingPress.exe
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\bin\Debug\PrintingPress.pdb
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.API.Income_expense.AccountFrm.resources
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.API.Income_expense.BasicSetupFrm.resources
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.API.Income_expense.CashFlowFrm.resources
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.API.Income_expense.CodeHeading.resources
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.API.Messenger.ChatBoxFrm.resources
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.API.Startups.LoadScreenFrm.resources
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.Controls.MessageContainer.resources
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.Controls.ucDateTime.resources
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.Properties.Resources.resources
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.csproj.GenerateResource.Cache
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.API.Messenger.ChatNotifyFrm.resources
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.LoginFrm.resources
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.API.Income_expense.InvoiceCompleteFrm.resources
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.API.Income_expense.InvoiceGenFrm.resources
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.API.Income_expense.JobSetupFrm.resources
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\bin\Debug\EncryptPassword35.dll
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\bin\Debug\MachineID_DLL.dll
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.API.Configuration.CreateAdmin.resources
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.API.Configuration.ServerConfigFrm.resources
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.API.Startups.CreateUserFrm.resources
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.API.User_security.ForgotPasswordFrm.resources
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.API.User_security.ResetLoginFrm.resources
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.API.User_security.ResetPasswordFrm.resources
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.API.User_security.SecurityQuestionFrm.resources
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.API.Startups.DashboardFrm.resources
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.API.Messenger.SuccessFrm.resources
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.API.Income_expense.ItemsFrm.resources
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.API.Notifications.ConfirmationNotifyFrm.resources
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.API.Income_expense.ViewCashFlowFrm.resources
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.API.Income_expense.ViewInvoiceFrm.resources
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.API.Customer_mgt.Customer_dashboardFrm.resources
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.API.Customer_mgt.CustomerUpdateFrm.resources
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.API.Messenger.OperationNotifyFrm.resources
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.API.Customer_mgt.CustomerAccountFrm.resources
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.API.Notifications.ConfirmInforFrm.resources
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.API.Reports.Invoice_receipt.CRInvoiceFrm.resources
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\bin\Debug\CrystalDecisions.ReportSource.dll
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\bin\Debug\CrystalDecisions.Shared.dll
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\bin\Debug\CrystalDecisions.Windows.Forms.dll
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\bin\Debug\FlashControlV71.dll
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\bin\Debug\ShockwaveFlashObjects.dll
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\bin\Debug\stdole.dll
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.API.Configuration.ReceiptSetupFrm.resources
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.API.Configuration.AuthenticiationFrm.resources
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.API.Configuration.PrintTitleFrm.resources
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.API.Customer_mgt.Customer_report.ReportFrm.resources
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.csprojResolveAssemblyReference.cache
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.API.User_security.UserActivityFrm.resources
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.API.General_reports.GeneralReportFrm.resources
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.API.Configuration.DatabaseFrm.resources
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.API.Customer_mgt.Customer_activityFrm.resources
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.API.Configuration.MessengerServerConfig.resources
+F:\Users\Learnueltech\Desktop\Production Projects\Fontstyle app\PrintingPress_sol\PrintingPress\obj\Debug\PrintingPress.API.Income_expense.InvoiceItemsFrm.resources
